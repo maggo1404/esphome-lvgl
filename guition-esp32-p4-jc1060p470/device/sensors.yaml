@@ -3,7 +3,7 @@ sensor:
   # Header Outdoor Temperate
   - platform: homeassistant
     entity_id: sensor.sensor.hygrometer_temperatur
-    id: office_temperature
+    id: hygrometer_temperatur
     on_value:
       - lvgl.label.update:
           id: temperatures
