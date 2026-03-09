@@ -19,7 +19,7 @@ sensor:
           id: temperatures
           text:
             format: "%d° / %d°"
-            args: [ '(int)round(x)', '(int)round(id(office_temperature).state)' ]
+            args: [ '(int)round(x)', '(int)round(id(hygrometer_temperatur).state)' ]
 
   # Office Blind Position
   - platform: homeassistant
