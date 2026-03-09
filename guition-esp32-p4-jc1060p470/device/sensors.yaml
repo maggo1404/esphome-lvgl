@@ -40,8 +40,8 @@ sensor:
 
   # Filament Heater Humidity
   - platform: homeassistant
-    entity_id: sensor.office_filament_heater_sensor_humidity
-    id: filament_heater_humidity
+    entity_id: sensor.hygrometer_luftfeuchtigkeit
+    id: hygrometer_luftfeuchtigkeit
     on_value:
       - lvgl.label.update:
           id: dryer_humidity_label
